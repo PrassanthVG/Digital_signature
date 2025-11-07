@@ -14,7 +14,7 @@ from tkinter import filedialog, messagebox, scrolledtext, ttk
 
 
 DEFAULT_OWNER_PASSWORD = "Owner#Strong#987"
-DEFAULT_CERT_ALIAS = "Prem T"
+DEFAULT_CERT_ALIAS = "NAME OF THE CERT."
 DEFAULT_OUTPUT_SUFFIX = "_signed"
 DEFAULT_JAVA_CANDIDATES = [
     r"C:\tools\temurin-jre\jdk-17.0.17+10-jre\bin\java.exe",
@@ -31,7 +31,7 @@ CERT_QUERY_COMMAND = (
 )
 DEFAULT_SIG_PAGE = "1"
 DEFAULT_SIG_POSITION = "Bottom right"
-DEFAULT_SIG_IMAGE = r"C:\tools\PITOWINGS\adobe_style.png"
+DEFAULT_SIG_IMAGE = r"C:\tools\img\adobe_style.png"
 SIG_WIDTH = 240
 SIG_HEIGHT = 90
 SIG_MARGIN_X = 36
@@ -104,7 +104,7 @@ def find_default_java() -> str:
 class SignerApp:
     def __init__(self, root: tk.Tk) -> None:
         self.root = root
-        root.title("PITOWINGS SIGN")
+        root.title("img SIGN")
 
         # paths frame
         paths_frame = tk.LabelFrame(root, text="Paths")
