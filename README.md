@@ -106,19 +106,6 @@ Digital_signature/
 └── README.md              # This file
 ```
 
-## License
-
-This project uses JSignPdf, which is licensed under LGPL 2.1 and MPL 2.0. See the `JSignPdf/licenses/` directory for details.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Author
-
-PrassanthVG
-
-## Repository
 
 https://github.com/PrassanthVG/Digital_signature.git
 
